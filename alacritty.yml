@@ -1,0 +1,71 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+
+# font:
+#   normal:
+#     family: JetBrains Mono Nerd Font
+#     style:  Medium
+#   bold:
+#     family: JetBrains Mono Nerd Font
+#     style:  Bold
+#   italic:
+#     family: JetBrains Mono Nerd Font
+#     style:  MediumItalic
+#   bold_italic:
+#     family: JetBrains Mono Nerd Font
+#     style: BoldItalic
+#   size: 10
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: "#000000"
+    foreground: "#87ffaf"
+    # foreground: "#ff9e64"
+  normal:
+    black: "#000000"
+    red: "#f7768e"
+    green: "#9ece6a"
+    yellow: "#fa9e44"
+    blue: "#7aa2f7"
+    magenta: "#ad8ee6"
+    cyan: "#f49dab"
+    white: "#ffffff"
+  bright:
+    black: "#000000"
+    red: "#ff7a93"
+    green: "#b9f27c"
+    yellow: "#ff9e64"
+    blue: "#7da6ff"
+    magenta: "#bb9af7"
+    cyan: "#0db9d7"
+    white: "#ffffff"
+
+
+cursor:
+  style:
+    shape: Underline
+    blinking: Always
+  blink_interval: 450
+  vi_mode_style:
+    shape: Block
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/zsh
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
