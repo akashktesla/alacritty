@@ -1,0 +1,68 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#000000"
+blue = "#7da6ff"
+cyan = "#0db9d7"
+green = "#b9f27c"
+magenta = "#bb9af7"
+red = "#ff7a93"
+white = "#ffffff"
+yellow = "#ff9e64"
+
+[colors.normal]
+black = "#000000"
+blue = "#7aa2f7"
+cyan = "#f49dab"
+green = "#9ece6a"
+magenta = "#ad8ee6"
+red = "#f7768e"
+#violet = "#FF77FF"
+white = "#ffffff"
+yellow = "#fa9e44"
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
+
+[cursor]
+blink_interval = 450
+
+[cursor.style]
+blinking = "Always"
+shape = "Underline"
+
+[cursor.vi_mode_style]
+shape = "Block"
+
+[font]
+#family = "FiraCode Nerd Font"
+size = 10.0
+#style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
